@@ -1,0 +1,86 @@
+body{
+    background-image: url(back.png);
+    background-size: cover;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px ;
+    color: rgb(241, 245, 239);
+}
+.jogos{
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px ;
+    text-decoration: underline #1962cf;
+    color: rgb(241, 245, 239);
+}
+.inicio{
+    border-style:double;
+    border-radius: 10px;
+    border: 10px solid rgb(10, 160, 187);
+}
+a.lin{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
+    background-image:linear-gradient(#00398e,#092755);
+    background-repeat: no-repeat;
+    background-size:0 100% ;
+    background-position-x:right ;
+    transition: background-size 500ms;
+}
+a.lin:hover{
+    background-size: 100% 100%;
+    background-position: left;}
+a{
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin-left: -100px;
+    width: 1000px;
+    color: #ffffff
+}
+nav.link{
+    height: 200px;
+    width: 700px;
+    padding: 10px;
+}
+details{
+    width: 800px;
+    color: rgb(255, 255, 255);
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+}   
+summary{
+    box-shadow: 0px 0px 30px rgb(1, 21, 46);
+    border-radius: 15px;
+    width: 650px;
+    margin-bottom: 40px;
+    background-color:#1962cf;
+} 
+iframe{
+    border-style: inset;
+    border-radius: 15px;
+    border: 3px solid rgb(3, 47, 104);
+} 
+.inicio{
+    border-style: dotted;
+    border-radius: 10px;
+    border: 10px solid rgb(10, 160, 187);}
+.img{
+        box-shadow: 0px 0px 30px #1962cf;
+        border-width: 15px;
+        margin-left: 15%;
+        width: 1150px;
+        height: 200px;
+        border-style: double;
+        border-color: #04479e;
+        border-radius: 20px;
+}
+.game{
+    margin-top: -30px;
+    text-decoration: underline #1962cf;
+}
